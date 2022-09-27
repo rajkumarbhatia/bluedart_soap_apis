@@ -1,0 +1,21 @@
+{
+  "name": "bluedart",
+  "version": "1.0.0",
+  "description": "Bluedart SOAP based API",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "bluedart",
+    "soap",
+    "apis"
+  ],
+  "author": "Raj Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "soap": "^0.43.0"
+  }
+}
