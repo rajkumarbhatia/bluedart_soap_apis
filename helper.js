@@ -1,5 +1,12 @@
 var soap = require('soap');
 
+/**
+ * Generate SOAP Request
+ * @param {String} url - API URL (wsdl)
+ * @param {Onject} params - Required args, like profile,shipper
+ * @param {String} action - Action URL
+ * @param {String} functionName - Function name for get result back
+ */
 exports.generateSOAPRequest = async (url, params, action, functionName) => {
 
 	return new Promise((resolve, reject) => {
